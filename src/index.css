@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.calendar-container {
+    height: 100%;
+    position: relative;
+}
+
+.calendar-title {
+    user-select: none;
+    display: inline-block;
+    width: 43.2% !important; 
+    height: 8% !important;
+    padding: 4px;
+}
+
+.calendar-title-full {
+    user-select: none;
+    display: inline-block;
+    width: 100% !important; 
+    height: 8% !important;
+    padding: 4px;
+}
+
+.calendar-title-button {
+    padding: 4px;
+    user-select: none;
+    display: inline-block;
+    width: 14.2%;
+    height: 8% !important;
+}
+
+.calendar-weekday-heading {
+    padding: 4px;
+    user-select: none;
+    display: inline-block;
+    height: 8% !important;
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+
+.weekday-column {
+    display: inline-block;
+    user-select: none;
+    width: 14.2%;
+    height: 14%;
+    vertical-align: middle;
+    line-height: 100%;
+    text-align: center;
+}
